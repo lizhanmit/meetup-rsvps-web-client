@@ -2,25 +2,25 @@ package com.zhandev.rsvps.model;
 
 public class Event {
 
-    private String eventId;
-    private String eventName;
+    private String event_id;
+    private String event_name;
     private Long time;
-    private String eventUrl;
+    private String event_url;
 
-    public String getEventName() {
-        return eventName;
+    public String getEvent_name() {
+        return event_name;
     }
 
-    public void setEventName(String eventName) {
-        this.eventName = eventName;
+    public void setEvent_name(String event_name) {
+        this.event_name = event_name;
     }
 
-    public String getEventId() {
-        return eventId;
+    public String getEvent_id() {
+        return event_id;
     }
 
-    public void setEventId(String eventId) {
-        this.eventId = eventId;
+    public void setEvent_id(String event_id) {
+        this.event_id = event_id;
     }
 
     public Long getTime() {
@@ -31,12 +31,12 @@ public class Event {
         this.time = time;
     }
 
-    public String getEventUrl() {
-        return eventUrl;
+    public String getEvent_url() {
+        return event_url;
     }
 
-    public void setEventUrl(String eventUrl) {
-        this.eventUrl = eventUrl;
+    public void setEvent_url(String event_url) {
+        this.event_url = event_url;
     }
 
 }

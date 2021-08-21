@@ -2,22 +2,22 @@ package com.zhandev.rsvps.model;
 
 public class GroupTopic {
 
-    private String urlKey;
-    private String topicName;
+    private String urlkey;
+    private String topic_name;
 
-    public String getUrlKey() {
-        return urlKey;
+    public String getUrlkey() {
+        return urlkey;
     }
 
-    public void setUrlKey(String urlKey) {
-        this.urlKey = urlKey;
+    public void setUrlkey(String urlkey) {
+        this.urlkey = urlkey;
     }
 
-    public String getTopicName() {
-        return topicName;
+    public String getTopic_name() {
+        return topic_name;
     }
 
-    public void setTopicName(String topicName) {
-        this.topicName = topicName;
+    public void setTopic_name(String topic_name) {
+        this.topic_name = topic_name;
     }
 }

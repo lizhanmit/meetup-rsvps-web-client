@@ -2,17 +2,17 @@ package com.zhandev.rsvps.model;
 
 public class Venue {
 
-    private Long venueId;
-    private String venueName;
+    private Long venue_id;
+    private String venue_name;
     private Double lon;
     private Double lat;
 
-    public String getVenueName() {
-        return venueName;
+    public String getVenue_name() {
+        return venue_name;
     }
 
-    public void setVenueName(String venueName) {
-        this.venueName = venueName;
+    public void setVenue_name(String venue_name) {
+        this.venue_name = venue_name;
     }
 
     public Double getLon() {
@@ -31,11 +31,11 @@ public class Venue {
         this.lat = lat;
     }
 
-    public Long getVenueId() {
-        return venueId;
+    public Long getVenue_id() {
+        return venue_id;
     }
 
-    public void setVenueId(Long venueId) {
-        this.venueId = venueId;
+    public void setVenue_id(Long venue_id) {
+        this.venue_id = venue_id;
     }
 }

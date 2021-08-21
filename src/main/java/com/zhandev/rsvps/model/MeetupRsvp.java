@@ -10,7 +10,7 @@ public class MeetupRsvp {
     private String response;
     private Integer guests;
     private Member member;
-    private Long rsvpId;
+    private Long rsvp_id;  // the reason that do not use camel case here is to keep consistent with Meetup RSVP endpoint
     private Long mtime;
     private Event event;
     private Group group;
@@ -55,12 +55,12 @@ public class MeetupRsvp {
         this.member = member;
     }
 
-    public Long getRsvpId() {
-        return rsvpId;
+    public Long getRsvp_id() {
+        return rsvp_id;
     }
 
-    public void setRsvpId(Long rsvpId) {
-        this.rsvpId = rsvpId;
+    public void setRsvp_id(Long rsvp_id) {
+        this.rsvp_id = rsvp_id;
     }
 
     public Long getMtime() {

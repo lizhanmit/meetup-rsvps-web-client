@@ -2,16 +2,16 @@ package com.zhandev.rsvps.model;
 
 public class Member {
 
-    private Long memberId;
-    private String memberName;
+    private Long member_id;
+    private String member_name;
     private String photo;
 
-    public Long getMemberId() {
-        return memberId;
+    public Long getMember_id() {
+        return member_id;
     }
 
-    public void setMemberId(Long memberId) {
-        this.memberId = memberId;
+    public void setMember_id(Long member_id) {
+        this.member_id = member_id;
     }
 
     public String getPhoto() {
@@ -22,11 +22,11 @@ public class Member {
         this.photo = photo;
     }
 
-    public String getMemberName() {
-        return memberName;
+    public String getMember_name() {
+        return member_name;
     }
 
-    public void setMemberName(String memberName) {
-        this.memberName = memberName;
+    public void setMember_name(String member_name) {
+        this.member_name = member_name;
     }
 }

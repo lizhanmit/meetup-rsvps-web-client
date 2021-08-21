@@ -4,85 +4,85 @@ import java.util.List;
 
 public class Group {
 
-    private Long groupId;
-    private String group_Name;
-    private String groupCity;
-    private String groupState;
-    private String groupCountry;
-    private Double groupLon;
-    private Double groupLat;
-    private String groupUrlName;
-    private List<GroupTopic> groupTopics = null;
+    private Long group_id;
+    private String group_name;
+    private String group_city;
+    private String group_state;
+    private String group_country;
+    private Double group_lon;
+    private Double group_lat;
+    private String group_urlname;
+    private List<GroupTopic> group_topics = null;
 
-    public Long getGroupId() {
-        return groupId;
+    public Long getGroup_id() {
+        return group_id;
     }
 
-    public void setGroupId(Long groupId) {
-        this.groupId = groupId;
+    public void setGroup_id(Long group_id) {
+        this.group_id = group_id;
     }
 
-    public String getGroup_Name() {
-        return group_Name;
+    public String getGroup_name() {
+        return group_name;
     }
 
-    public void setGroup_Name(String group_Name) {
-        this.group_Name = group_Name;
+    public void setGroup_name(String group_name) {
+        this.group_name = group_name;
     }
 
-    public String getGroupCity() {
-        return groupCity;
+    public String getGroup_city() {
+        return group_city;
     }
 
-    public void setGroupCity(String groupCity) {
-        this.groupCity = groupCity;
+    public void setGroup_city(String group_city) {
+        this.group_city = group_city;
     }
 
-    public String getGroupState() {
-        return groupState;
+    public String getGroup_state() {
+        return group_state;
     }
 
-    public void setGroupState(String groupState) {
-        this.groupState = groupState;
+    public void setGroup_state(String group_state) {
+        this.group_state = group_state;
     }
 
-    public String getGroupCountry() {
-        return groupCountry;
+    public String getGroup_country() {
+        return group_country;
     }
 
-    public void setGroupCountry(String groupCountry) {
-        this.groupCountry = groupCountry;
+    public void setGroup_country(String group_country) {
+        this.group_country = group_country;
     }
 
-    public Double getGroupLon() {
-        return groupLon;
+    public Double getGroup_lon() {
+        return group_lon;
     }
 
-    public void setGroupLon(Double groupLon) {
-        this.groupLon = groupLon;
+    public void setGroup_lon(Double group_lon) {
+        this.group_lon = group_lon;
     }
 
-    public Double getGroupLat() {
-        return groupLat;
+    public Double getGroup_lat() {
+        return group_lat;
     }
 
-    public void setGroupLat(Double groupLat) {
-        this.groupLat = groupLat;
+    public void setGroup_lat(Double group_lat) {
+        this.group_lat = group_lat;
     }
 
-    public String getGroupUrlName() {
-        return groupUrlName;
+    public String getGroup_urlname() {
+        return group_urlname;
     }
 
-    public void setGroupUrlName(String groupUrlName) {
-        this.groupUrlName = groupUrlName;
+    public void setGroup_urlname(String group_urlname) {
+        this.group_urlname = group_urlname;
     }
 
-    public List<GroupTopic> getGroupTopics() {
-        return groupTopics;
+    public List<GroupTopic> getGroup_topics() {
+        return group_topics;
     }
 
-    public void setGroupTopics(List<GroupTopic> groupTopics) {
-        this.groupTopics = groupTopics;
+    public void setGroup_topics(List<GroupTopic> group_topics) {
+        this.group_topics = group_topics;
     }
 }

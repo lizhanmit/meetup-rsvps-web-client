@@ -34,20 +34,20 @@
                 source.onmessage = function (event) {
 
                     var data = JSON.parse(event.data);
-                    addMarker(data.venue.lat, data.venue.lon, data.venue.venueName, data.guests);
+                    addMarker(data.venue.lat, data.venue.lon, data.venue.venue_name, data.guests);
                 };
             } else {
                 document.getElementById("result").innerHTML =
                         "Sorry, your browser does not support server-sent events...";
             }
 
-            function addMarker(latv, lngv, venueName, guests) {
+            function addMarker(latv, lngv, venue_name, guests) {
                 var myLatLng = {lat: latv, lng: lngv};
 
                 new google.maps.Marker({
                     position: myLatLng,
                     map: map,
-                    title: venueName + " (guests: " + guests + ")"
+                    title: venue_name + " (guests: " + guests + ")"
                 });
             }
 
